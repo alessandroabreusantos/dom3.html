@@ -1,0 +1,52 @@
+.container{
+    justify-content: space-evenly;
+    width: 600px;
+    height: 400px;
+    background-color: #90e0ef;
+    box-shadow: 0 0 4px black;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .input{
+        display: flex;
+        width: 300px;
+        height: 40px;
+        justify-content: space-between;
+    }
+    .input label{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input input{
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        font-weight: bold;
+        background-color: #f1eaee;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .result{
+        background-color: #219ebc;
+        width: 300px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+        color: black;
+        font-size: 20px;
+        
+    }
